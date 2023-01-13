@@ -1,15 +1,12 @@
-:root{
-    --mainColor: rgb(17, 43, 31);
-}
 body{
     margin: 0;
+    background-color: black;
 }
 header{
-    background-color: var(--mainColor);
     height: 50px;
 }
 .container{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -17,19 +14,22 @@ header{
     display: flex;
     height: 50px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
 }
 .listItem{
     margin-left: 2em;
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-family: 'Poppins', sans-serif;
 }
 .listItem:hover{
-    font-size: 1.8rem;
-    text-shadow: 1px 1px 3px black;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px whitesmoke;
 }
 .listItem:active{
     border-bottom: 3px solid rgb(174, 175, 172);
+}
+.home::after{
+    background-color: blue;
 }
