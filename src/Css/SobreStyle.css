@@ -3,15 +3,14 @@
     text-align: center;
 }
 .sobreImage img{
-    margin-top: 5%;
     width: 60%;
     border-radius: 50%;
 }
 .sobreText{
-    margin-top: 15%;
+    width: 40%;
 }
 .sobreText h3{
-    text-align: center;
+    text-align: justify;
     color: whitesmoke;
 }
 .skill{

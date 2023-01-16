@@ -1,3 +1,22 @@
-.container{
+.contatoContainer{
     text-align: center;
+    margin-top: 10%;
+}
+
+.contatoTitle{
+    color: white;
+}
+
+.contatos{
+    display: block;
+    margin-top: 3%;
+}
+
+.contatosRedes{
+    display: flex;
+    justify-content: center;
+}
+
+.contatosRedes svg{
+    margin-right: 10px;
 }
