@@ -1,13 +1,15 @@
 .sobreContainer{
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
 .sobreImage img{
-    width: 60%;
+    width: 80%;
     border-radius: 50%;
 }
 .sobreText{
-    width: 40%;
+    width: 80%;
+    margin-right: 3%;
 }
 .sobreText h3{
     text-align: justify;
@@ -26,4 +28,24 @@
 .skill h2{
     text-align: end;
     margin-right: 5%;
+}
+
+@media screen and (max-width: 810px){
+
+    .sobreContainer{
+        display: block;
+        text-align: center;
+    }
+
+    .sobreImage img{
+        width: 50%;
+    }
+
+    .sobreText{
+        width: 90%;
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+    }
+    
 }

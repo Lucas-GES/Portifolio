@@ -33,4 +33,22 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 375px){
 
+    .homeContainer{
+        display: block;
+        margin-top: 10%;
+    }
+
+    .homeImage svg{
+        width: 60%;
+        margin: 0;
+    }
+
+    .homeText{
+        width: 70%;
+        margin: 5% 15% 0 15%;
+        display: block;
+        justify-content: center;
+    }
+}

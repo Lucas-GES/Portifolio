@@ -33,3 +33,19 @@ header{
 .home::after{
     background-color: blue;
 }
+
+@media screen and (max-width: 1080px){
+
+    .list{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 810px){
+
+    .list{
+        justify-content: center;
+    }
+
+}

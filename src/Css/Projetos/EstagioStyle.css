@@ -53,3 +53,40 @@
 .post img{
     width: 60%;
 }
+
+@media screen and (max-width: 1080px){
+
+    .title h3{
+        width: 100%;
+    }
+
+    .title{
+        display: grid;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 812px){
+
+    .title h3{
+        width: 100%;
+    }
+
+    .title{
+        display: grid;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .title h3{
+        width: 100%;
+    }
+
+    .title{
+        display: grid;
+        justify-content: center;
+    }
+
+}

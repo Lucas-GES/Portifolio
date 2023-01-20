@@ -1,7 +1,78 @@
-.container{
+.projetosContainer{
     text-align: center;
+    margin-top: 5%;
 }
 
-.container h1, h3{
+.projetosContainer h1, h3{
     color: white;
+}
+
+.projetosContainer p{
+    text-align: center;
+    color: white;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+}
+
+#github a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#github a:hover p{
+    font-size: large;
+    color: red;
+}
+
+#github svg{
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.projetos ul{
+    width: 25%;
+    color: white;
+}
+
+.projetos li{
+    margin: 5%;
+    text-align: justify;
+}
+
+.projetos a{
+    text-decoration: none;
+    color: white;
+}
+
+.projetos a:hover{
+    font-size: large;
+    color: red;
+}
+
+@media screen and (max-width: 375px){
+
+    .projetos ul{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 810px){
+
+    .projetos ul{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1080px){
+
+    .projetos ul{
+        width: 40%;
+    }
 }
