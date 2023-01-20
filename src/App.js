@@ -5,6 +5,7 @@ import Home from './Component/Home.js';
 import Contato from './Component/Contato.js';
 import Sobre from './Component/Sobre.js';
 import Projetos from './Component/Projetos.js';
+import Estagio from './Component/Projetos/Estagio.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/contato' element={<Contato />} />
           <Route path='/sobre' element={<Sobre />} />
           <Route path='/projetos' element={<Projetos />} />
+          <Route path='/projetos/estagio' element={<Estagio />}/>
         </Routes>
       </BrowserRouter>
     </>

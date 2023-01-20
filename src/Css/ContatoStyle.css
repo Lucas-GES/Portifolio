@@ -20,3 +20,7 @@
 .contatosRedes svg{
     margin-right: 10px;
 }
+
+.contatosRedes a{
+    text-decoration:  none;
+}

@@ -1,0 +1,55 @@
+.title{
+    margin: 3%;
+}
+
+.title h1, h3{
+    color: white;
+}
+
+.title h1{
+    justify-content: center;
+    display: flex;
+}
+
+.title h3{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.title h3:hover{
+    color: red;
+    border: 1px solid red;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    display: block;
+    margin: 5%;
+}
+
+.body p{
+    color: white;
+    text-align: justify;
+    width: 80%;
+}
+
+.post{
+    display: block;
+    justify-content: center;
+}
+
+.post h3{
+    color: white;
+    margin-top: 3%;
+}
+
+.post img{
+    width: 60%;
+}
